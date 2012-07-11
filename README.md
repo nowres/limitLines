@@ -1,0 +1,4 @@
+limitLines
+==========
+
+jQuery LimitLines Plugin
