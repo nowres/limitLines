@@ -59,6 +59,7 @@
         brider: function(e) {
             var maxW, $this = $(this),
             data = $this.data('limitLines'),
+            target = data.target,
             $ruler = data.ruler,
             ruler = $ruler.get(0),
             chars = $this.val(),
