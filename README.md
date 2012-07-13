@@ -3,4 +3,4 @@ limitLines (draft version)
 
 jQuery LimitLines Plugin
 
-TODO: Code cleanup + performance improvement
+TODO: Code rework + performance improvement
