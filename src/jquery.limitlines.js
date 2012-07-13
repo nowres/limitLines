@@ -36,7 +36,7 @@
                     ruler.css('font-family', target.css('font-family'));
                     ruler.css('font-size', target.css('font-size'));
 
-                    data.maxWidth = target.get(0).scrollWidth - parseInt( target.css('border-left-width') ) - parseInt( target.css('border-right-width') );
+                    data.maxWidth = target.get(0).scrollWidth;
 
                     data.number = 0;
 
