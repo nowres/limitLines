@@ -57,9 +57,8 @@
             })
         },
         brider: function(e) {
-            var $this = $(this),
+            var maxW, $this = $(this),
             data = $this.data('limitLines'),
-            maxW = data.maxWidth,
             $ruler = data.ruler,
             ruler = $ruler.get(0),
             chars = $this.val(),
@@ -67,6 +66,9 @@
             w = 0,
             n = 1,
             s = -1;
+            
+            data.maxWidth = target.get(0).scrollWidth;
+            maxW = data.maxWidth;
 
             ruler.innerHTML = '';
 
