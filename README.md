@@ -12,6 +12,6 @@ This plugin is licensed under the terms of the GPLv3 License.
 
 Author:
 ======
-Nowres RAFID <nowres.rafed> [at] <gmail.com>
+Nowres RAFID [nowres.rafed] [at] [gmail.com]
 
 TODO: Code rework + performance improvement
